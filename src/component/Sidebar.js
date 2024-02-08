@@ -1,28 +1,43 @@
 import React from 'react'
 import miniLogo from '../Data/logo-mini.png'
+import icon1 from '../Data/i1.png'
+import icon2 from '../Data/i2.png'
+import icon3 from '../Data/i3.png'
+import icon4 from '../Data/i4.png'
+import icon5 from '../Data/i5.png'
 
 const Sidebar = () => {
   return (
     <div className='sideBar'>
-        <a href='#' className='sideLogo'>
-        <img src={miniLogo} />
-        </a>
+        <div className='sideLogo'>
+        <img className='miniLogo' src={miniLogo} alt='icon' />
+        </div>
         
         <ul className='sideMenu'>
             <li>
-                <link to="/">Home</link>
+                <div className='a'>
+                    <img src={icon1} alt='icon'/>
+                </div>
             </li>
             <li>
-                <link to="/">Anime</link>
+                <div className='a'>
+                    <img src={icon2} alt='icon'/>
+                </div>
             </li>
             <li>
-                <link to="/">Movie</link>
+                <div className='a'>
+                    <img src={icon3} alt='icon'/>
+                </div>
             </li>
             <li>
-                <link to="/">Teatr</link>
+                <div className='a'>
+                    <img src={icon4} alt='icon'/>
+                </div>
             </li>
             <li>
-                <link to="/">Erkh sungah</link>
+                <div className='a'>
+                    <img src={icon5} alt='icon'/>
+                </div>
             </li>
 
         </ul>
