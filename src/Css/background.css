@@ -1,0 +1,31 @@
+.Off{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.On{
+    background-color: White;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.Off button{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    font-size: 70px;
+    border-radius: 30px;
+    border: 0;
+}
+.On button{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 300px;
+    font-size: 70px;
+    border-radius: 30px;
+    border: 0;
+}
